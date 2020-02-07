@@ -1,0 +1,184 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    color: #0D1317;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 800px;
+    background: #FFFAFF;
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ED254E;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #0D1317;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+header h2 {
+    clear: both;
+    font-size: 64pt;
+    padding: 20px 0 20px 25px;
+}
+
+header p {
+    font-size: 48pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*****ABOUT*****/
+
+#about {
+    background: #ED254E;
+    text-align: center;
+    color: #FFFAFF;
+    height: 1050px;
+    padding-top: 100px;
+}
+
+#about h2 {
+    font-size: 36pt;
+}
+
+#about #headshot-img {
+    width: 300px;
+    height: 357px;
+    border: 5px solid #FFFAFF;
+}
+
+#about h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: bolder;
+}
+
+#about p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: 5;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*****PORTFOLIO*****/
+
+#portfolio {
+    height: 850px;
+    background: #FFFAFF;
+    text-align: center;
+    border: 1px solid #FFFAFF;
+}
+
+#portfolio h2 {
+    font-size: 36pt;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#portfolio img {
+    width: 350px;
+    height: 223px;
+    border: 1px solid #0D1317;
+}
+
+#portfolio h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: bolder;
+}
+
+#portfolio p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    font-weight: lighter;
+}
+
+ /*****CONTACT*****/
+
+ #contact {
+    background: #ED254E;
+    text-align: center;
+    color: #FFFAFF;
+    height: 650px;
+ }
+
+ #contact h2 {
+    font-size: 36pt;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+
+ #contact h3 {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 24pt;
+ }
+
+ #contact ul li {
+    display: inline-block;
+ }
+
+#contact #twitter-img {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+}
+
+/******FOOTER******/
+
+footer {
+    background: #ED254E;
+    text-align: center;
+    color: #FFFAFF;
+    text-align: center;
+    border: 1px solid #ED254E;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18pt;
+}
+
+footer span {
+    font-family: 'font112379';
+    text-transform: none;
+}
